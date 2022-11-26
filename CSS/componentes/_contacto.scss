@@ -1,0 +1,20 @@
+.contactoBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px;
+  background-color: $background-color;
+  text-align: center;
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3ed01;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+  }
+}

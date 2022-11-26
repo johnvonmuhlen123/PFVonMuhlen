@@ -1,0 +1,26 @@
+.titleSection.acerca {
+  padding: 20px;
+}
+
+.videoSection.acerca {
+  padding: 40px;
+  background-color: $background-color;
+  margin: 30px;
+  position: static;
+}
+
+#acercaImg {
+  width: 500px;
+  padding: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  #acercaImg {
+    width: 400px;
+  }
+}
+
+.carousel {
+  width: 520px;
+  padding: 30px;
+}

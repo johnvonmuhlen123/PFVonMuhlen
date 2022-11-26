@@ -1,0 +1,34 @@
+.productos {
+  display: map-get($flex, display);
+  align-items: map-get($flex, align-items);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.categoria {
+  display: map-get($flex, display);
+  justify-content: map-get($flex, justify-content);
+  align-items: map-get($flex, align-items);
+  flex-direction: column;
+}
+
+.categoriaImagenes {
+  display: map-get($flex, display);
+  justify-content: map-get($flex, justify-content);
+  align-items: map-get($flex, align-items);
+  flex-wrap: wrap;
+
+  img {
+    width: 15rem;
+    padding: 10px;
+  }
+}
+.categoriaTitulo {
+  padding: 20px;
+}
+
+.productosContenedor {
+  background-color: $background-color;
+  margin: 20px;
+}

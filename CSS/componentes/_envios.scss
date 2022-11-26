@@ -1,0 +1,25 @@
+.enviosBody {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px;
+  background-color: $background-color;
+  align-items: center;
+  flex-wrap: wrap;
+
+  h4 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 30px;
+  }
+}
+
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  color: #f3ed01;
+  padding: 25px;
+}

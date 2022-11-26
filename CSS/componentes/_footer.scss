@@ -1,0 +1,29 @@
+footer
+{
+    background-color: rgb(238, 238, 238);
+    margin-top: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icons.footer i
+{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.icons
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    i
+    {
+        padding: 20px;
+        font-size: 35px;
+    }
+}

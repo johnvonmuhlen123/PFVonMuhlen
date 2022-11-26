@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+@import "./componentes/variables";
+@import "./componentes/nav";
+@import "./componentes/inicio";
+@import "./componentes/footer";
+@import "./componentes/acerca";
+@import "./componentes/productos";
+@import "./componentes/envios";
+@import "./componentes/contacto";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+
+.titleSection {
+  display: map-get($flex, display);
+  justify-content: map-get($flex, justify-content);
+  align-items: map-get($flex, align-items);
+  flex-direction: column;
+}
+
+.titleDescription {
+  padding: 15px;
+  text-align: center;
+}
+
+.videoSection {
+  display: map-get($flex, display);
+  justify-content: map-get($flex, justify-content);
+  align-items: map-get($flex, align-items);
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  text-align: center;
+}

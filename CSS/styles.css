@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+.navbar {
+  background-color: #f7a9e3;
+}
+
+.logoImg {
+  width: 9.375rem;
+}
+
+.bigLogo {
+  width: 50%;
+}
+
+.titleButton {
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.videoDes {
+  width: 50%;
+  padding: 25px;
+}
+
+iframe {
+  padding: 25px;
+}
+
+footer {
+  background-color: rgb(238, 238, 238);
+  margin-top: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons.footer i {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.icons {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.icons i {
+  padding: 20px;
+  font-size: 35px;
+}
+
+.titleSection.acerca {
+  padding: 20px;
+}
+
+.videoSection.acerca {
+  padding: 40px;
+  background-color: lightgrey;
+  margin: 30px;
+  position: static;
+}
+
+#acercaImg {
+  width: 500px;
+  padding: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  #acercaImg {
+    width: 400px;
+  }
+}
+.carousel {
+  width: 520px;
+  padding: 30px;
+}
+
+.productos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.categoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.categoriaImagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.categoriaImagenes img {
+  width: 15rem;
+  padding: 10px;
+}
+
+.categoriaTitulo {
+  padding: 20px;
+}
+
+.productosContenedor {
+  background-color: lightgrey;
+  margin: 20px;
+}
+
+.enviosBody {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px;
+  background-color: lightgrey;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.enviosBody h4 {
+  padding: 20px;
+  text-align: center;
+}
+.enviosBody ul {
+  list-style: none;
+  padding: 30px;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  color: #f3ed01;
+  padding: 25px;
+}
+
+.contactoBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px;
+  background-color: lightgrey;
+  text-align: center;
+}
+.contactoBody .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3ed01;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+
+.titleSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titleDescription {
+  padding: 15px;
+  text-align: center;
+}
+
+.videoSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
