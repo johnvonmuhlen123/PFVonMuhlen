@@ -1,29 +1,24 @@
-footer
-{
-    background-color: rgb(238, 238, 238);
-    margin-top: 108px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+footer {
+  background-color: rgb(238, 238, 238);
+  margin-top: 108px;
+  display: map-get($flex, display);
+  flex-direction: column;
+  justify-content: map-get($flex, justify-content);
+  align-items: map-get($flex, align-items);
 }
 
-
-.icons.footer i
-{
-    font-size: 25px;
-    padding: 10px;
+.icons.footer i {
+  font-size: 25px;
+  padding: 10px;
 }
 
-.icons
-{
+.icons {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+
+  i {
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
-
-    i
-    {
-        padding: 20px;
-        font-size: 35px;
-    }
+    font-size: 35px;
+  }
 }

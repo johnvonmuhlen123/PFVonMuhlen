@@ -1,22 +1,20 @@
-.bigLogo
-{
-    width: 50%;
+$pad: 25px;
+
+.bigLogo {
+  width: 50%;
 }
 
-.titleButton
-{
-    margin: 20px;
-    padding: 10px;
-    font-size: 20px;
+.titleButton {
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
 }
 
-.videoDes
-{
-    width: 50%;
-    padding: 25px;
+.videoDes {
+  width: 50%;
+  padding: $pad;
 }
 
-iframe
-{
-    padding: 25px;
+iframe {
+  padding: $pad;
 }

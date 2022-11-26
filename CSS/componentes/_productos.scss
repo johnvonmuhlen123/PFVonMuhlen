@@ -1,16 +1,18 @@
+$col: column;
+
 .productos {
   display: map-get($flex, display);
   align-items: map-get($flex, align-items);
   justify-content: space-between;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: $col;
 }
 
 .categoria {
   display: map-get($flex, display);
   justify-content: map-get($flex, justify-content);
   align-items: map-get($flex, align-items);
-  flex-direction: column;
+  flex-direction: $col;
 }
 
 .categoriaImagenes {
